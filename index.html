@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Juegos</title>
+    <meta charset="UTF-8">
+    <title>Juego</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="contenedor">
-    <h1>Bienvenidos!</h1>
-    <h2>Vamos a jugar.</h2>
-    <div id="gameArea"></div>
-  </div>
-  
-  <script src="main.js"></script>
+    <div id="nombreUsuario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <button onclick="comenzarJuego()">Comenzar Juego</button>
+    </div>
+
+    <div id="juego" style="display: none;">
+        <button onclick="jugar('piedra')">Piedra</button>
+        <button onclick="jugar('papel')">Papel</button>
+        <button onclick="jugar('tijera')">Tijera</button>
+        <button onclick="salirDelJuego()">Salir</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="main.js"></script>
 </body>
-</html>
+</html> 

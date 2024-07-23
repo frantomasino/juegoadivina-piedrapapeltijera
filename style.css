@@ -60,3 +60,66 @@ input[type="text"], input[type="number"] {
     border: 1px solid #f5c6cb;
     border-radius: 5px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#nombreUsuario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#nombreUsuario label {
+    font-weight: bold;
+}
+
+#nombreUsuario input {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#nombreUsuario button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#nombreUsuario button:hover {
+    background-color: #0056b3;
+}
+
+#juego {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#juego button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#juego button:hover {
+    background-color: #218838;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
